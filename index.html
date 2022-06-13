@@ -9,7 +9,7 @@
     <link rel="icon" href="./img/logo.jpg">
     <title>Tres Hermanos</title>
 </head>
-<body class="bg-dark bg-opacity-25">
+<body>
     <header>
         
         <a href="index.html" class="logo">
@@ -41,17 +41,35 @@
 </header>
 
     <main>
-        <div class="">
-            <a id="main" href="./secciones/productos.html">
-                <img class="productos" src="./img/productosph.jpg" alt="">
-                <p>Encontra lo que buscas en tabacos, filtro, sedas y demás</p>
-            </a>
-        </div> 
+        <div id="carouselExampleFade" class="carousel slide carousel-fade container-sm" data-bs-ride="carousel">
+            <div class="carousel-inner">
+              <div class="carousel-item active">
+                <img src="https://dummyimage.com/1000x500/000/fff" class="d-block w-100" alt="...">
+              </div>
+              <div class="carousel-item">
+                <img src="./img/portada2.jpg" class="d-block w-100" alt="...">
+              </div>
+              <div class="carousel-item">
+                <img src="./img/portada3.jpg" class="d-block w-100" alt="...">
+              </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleFade" data-bs-slide="prev">
+              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleFade" data-bs-slide="next">
+              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Next</span>
+            </button>
+          </div>
+          <p class="">Tenemos los mejores tabacos, sedas y filtros. Combinalos como quieras!</p>
     </main>
 
+    
+    
     <section class="row">
-        <div class="card container " style="width: 18rem;">
-                <img src="./img/tabaco1.jpg" class="card-img-top" alt="...">
+        <div class="card container" style="width: 18rem;">
+                <img src="./img/tabacos1ph.jpg" class="card-img-top mt-2" alt="...">
                 <div class="card-body">
                 <h5 class="card-title">TABACOS</h5>
                 <p class="card-text">
@@ -62,8 +80,8 @@
                 </div>
         </div>
 
-        <div class="card container " style="width: 18rem;">
-            <img src="./img/seda1.jpg" class="card-img-top" alt="...">
+        <div class="card container" style="width: 18rem;">
+            <img src="./img/sedas1ph.jpg" class="card-img-top mt-2" alt="...">
             <div class="card-body">
               <h5 class="card-title">SEDAS</h5>
               <p class="card-text">Sedas de 50 de buena calidad para usar con tu tabaco favorito!</p>
