@@ -6,7 +6,7 @@
 }
 
 body{
-    background-image: url(../img/fondoSuave.jpg);
+    background-color: rgb(228, 228, 228);
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-size: cover;
@@ -56,15 +56,20 @@ a{
     text-decoration: none;
 }
 a:link{
-    color: rgb(255, 255, 255);
+    color: black;
 }
 
 a:active{
-    color: rgb(199, 199, 199);
+    color: white;
 }
 
 main{
     grid-area: main;
+}
+
+h1{
+    margin: 20px;
+    padding: 20px;
 }
 
 footer{
